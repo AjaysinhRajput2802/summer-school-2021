@@ -2,7 +2,7 @@ body {
   background-color: white;
 }
 hr {
-  border-top: 6px dotted red;
+  border-top: 3px dashed red;
 }
 
 canvas {
@@ -28,6 +28,10 @@ canvas {
   min-height: 100vh;
 }
 
+.nav-link{
+  color: #FF9933;
+}
+
 .navbar-custom {
   color: #ffffff;
   /* background-color: black; */
@@ -43,6 +47,7 @@ canvas {
 li .active,
 .active {
   background-color: white;
+  color: black;
 }
 
 nav li {
@@ -62,7 +67,7 @@ nav li {
 
 .home_title {
   max-width: 100%;
-  padding-top: 10%;
+  padding-top: 6%;
   font-size: 70px;
   color: white;
 }
@@ -90,9 +95,12 @@ nav li {
 #about .section-title,
 #speakers .section-title,
 #schedule .section-title,
-#register .section-title,
 #contact .section-title {
-  color: #24b8ff;
+  color: #660066;
+}
+
+#register .section-title{
+  color: #ffffff;
 }
 /* Gallery ends */
 
@@ -127,6 +135,8 @@ nav li {
   position: relative;
   padding-top: 3%;
   padding-bottom: 3%;
+  width: 95%;
+  margin-left: 2.5%;
 }
 
 .registration-card {

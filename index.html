@@ -11,7 +11,7 @@
   <script src="https://kit.fontawesome.com/3efde45f6e.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet" />
   <link rel="icon" href="./img/ieee.ico" />
-  <title>IEEE | Summer School '20</title>
+  <title>IEEE | Summer School '21</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <h3 class="ml-1">Summer School '20</h3>
+      <h3 class="ml-1">Summer School '21</h3>
       <ul class="navbar-nav ml-auto ">
         <li class="nav-item">
           <a class="nav-link active" href="#home" id="nav-item-1">Home</a>
@@ -73,7 +73,7 @@
     </div> -->
   <div class="text-center container" id="home">
     <canvas id="c"></canvas>
-    <p class="home_title">Summer School '20</p>
+    <p class="home_title">Summer School '21</p>
     <h1>
       Deep Learning
       <div class="small_span">with Specialization in</div>
@@ -81,6 +81,22 @@
     </h1>
     <br />
     <h3>X<sup>th</sup> - Y<sup>rd</sup> June, 2020</h3>
+    <form>
+      <script id="pay1" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GzF2jj3jJdVfGd" data-button_text="IEEE-DAIICT Members" async> 
+      </script> 
+    </form>
+    <form>
+      <script id="pay2" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GzF2jj3jJdVfGd" data-button_text="DAIICT Members" async> 
+      </script> 
+    </form>
+    <form>
+      <script id="pay3" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GzF2jj3jJdVfGd" data-button_text="IEEE Members" async> 
+      </script> 
+    </form>
+    <form>
+      <script id="pay4" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_GzF2jj3jJdVfGd" data-button_text="Special One" async> 
+      </script> 
+    </form>
   </div>
 
   <div class="container" id="about">
@@ -197,7 +213,7 @@
   </div>
 
   <hr />
-  <div class="container" id="schedule">
+  <div class="border" style="width: 50rem; margin-left: 23.5%; height: 300px; margin-bottom: 15px;" id="schedule">
     <div class="section-title text-center center">
       <h2>Schedule</h2>
       <!-- <hr> -->
@@ -223,14 +239,6 @@
       <li class="nav-item">
         <a class="nav-link active" id="day5-tab" data-toggle="tab" href="#day5" role="tab" aria-controls="day5"
           aria-selected="true">Day 5</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" id="day6-tab" data-toggle="tab" href="#day6" role="tab" aria-controls="day6"
-          aria-selected="true">Day 6</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" id="day7-tab" data-toggle="tab" href="#day7" role="tab" aria-controls="day7"
-          aria-selected="true">Day 7</a>
       </li>
     </ul>
     <div class="tab-content" id="myTabContent">
@@ -274,33 +282,18 @@
         <i class="fa fa-long-arrow-right"></i> Using GPUs to train faster<br />
         <i class="fa fa-long-arrow-right"></i> Use cases of Tensorbord<br />
       </div>
-      <div class="tab-pane fade" id="day6" role="tabpanel" aria-labelledby="day6-tab">
-        <h5>Day 6</h5>
-        <i class="fa fa-long-arrow-right"></i> RNNs + LSTMs + GRUs<br />
-        <i class="fa fa-long-arrow-right"></i> Basics of embeddings<br />
-        <i class="fa fa-long-arrow-right"></i> Intro with NLTK library<br />
-      </div>
-      <div class="tab-pane fade" id="day7" role="tabpanel" aria-labelledby="day7-tab">
-        <h5>Day 7 - Projects</h5>
-        <i class="fa fa-long-arrow-right"></i> Buffer Day + Some
-        competition<br />
-        <i class="fa fa-long-arrow-right"></i> Sentiment Detection<br />
-        <i class="fa fa-long-arrow-right"></i> IMDB reviews based movie
-        ratings and suggestions<br />
-        <i class="fa fa-long-arrow-right"></i> Hate speech classifier<br />
-      </div>
     </div>
   </div>
 
   <div class="register-background"></div>
-  <div class="" id="register">
+  <div class="rounded-lg" style="margin-bottom: 15px;" id="register">
     <div class="section-title text-center center">
       <h2>Register</h2>
     </div>
 
     <div class="container">
       <div class="d-flex flex-wrap justify-content-around">
-        <div class="registration-card text-center">
+        <div class="registration-card text-center" id="tmp">
           <div class="registeration-title">
             <h3>DA-IICT Student</h3>
           </div>
@@ -326,7 +319,7 @@
     </div>
   </div>
 
-  <div class="container" id="contact">
+  <div class="border" style="width: 95%; margin-left: 2.5%; margin-top: 30px;" id="contact">
     <div class="section-title text-center center">
       <h2 clas="contact-title">Contact</h2>
       <!-- <hr> -->
@@ -415,8 +408,8 @@
   <div class="copyright wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".2s">
     <div class="container">
       <p>
-        © 2020 IEEE SB DAIICT. All rights reserved | Design by
-        <b>Meet Patel, Hitesh Goyal</b>, IEEE SB, DA-IICT
+        © 2021 IEEE SB DAIICT. All rights reserved | Design by
+        <b>Ajaysinh Rajput</b>, IEEE SB, DA-IICT
       </p>
     </div>
   </div>
