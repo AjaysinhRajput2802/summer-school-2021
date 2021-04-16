@@ -1,6 +1,7 @@
 body {
-  background-color: white;
+  background-color: #f2f2f2;
 }
+
 hr {
   border-top: 3px dashed red;
 }
@@ -67,7 +68,7 @@ nav li {
 
 .home_title {
   max-width: 100%;
-  padding-top: 6%;
+  padding-top: 10%;
   font-size: 70px;
   color: white;
 }
@@ -85,8 +86,15 @@ nav li {
 /* About starts */
 #about {
   padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-bottom: 30px;
   font-family: "Amaranth", sans-serif;
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.2in;
+  width: 98%;
 }
 /* About ends */
 
@@ -95,16 +103,38 @@ nav li {
 #about .section-title,
 #speakers .section-title,
 #schedule .section-title,
-#contact .section-title {
-  color: #660066;
+.contact-title{
+  color: Turquoise;
 }
 
-#register .section-title{
-  color: #ffffff;
+#gallery{
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.1in;
+  width: 75%;
+  margin-left: 12.5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
 /* Gallery ends */
 
 /* Speakers Start */
+#speakers{
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.1in;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#speakers .section-title
+{
+  color:Turquoise;
+}
+
 #speakers .card {
   margin: 15px;
 }
@@ -112,8 +142,12 @@ nav li {
 
 /* schedule start */
 #schedule {
-  padding-top: 2%;
-  padding-bottom: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.2in;
 }
 
 #schedule .tab-content h5 {
@@ -133,10 +167,17 @@ nav li {
   background-image: url(../img/reg.png);
   background-size: cover;
   position: relative;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.2in;
   width: 95%;
   margin-left: 2.5%;
+}
+
+#register .section-title{
+  color: Turquoise;
 }
 
 .registration-card {
@@ -158,8 +199,16 @@ nav li {
 /* Register end */
 
 /* Contact */
+
+#contact .section-title{
+  color: #062754;
+}
 #contact {
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 50px;
+  background-color :white;
+  border-style: groove;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  border-radius: 0.2in;
 }
 /* end of contact */
