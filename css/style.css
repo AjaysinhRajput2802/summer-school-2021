@@ -66,6 +66,12 @@ nav li {
   font-size: 40px;
 }
 
+#rg{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: -1cm;
+}
+
 .home_title {
   max-width: 100%;
   padding-top: 10%;
