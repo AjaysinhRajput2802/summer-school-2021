@@ -89,7 +89,7 @@ nav li {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 30px;
-  font-family: "Amaranth", sans-serif;
+ /* font-family: "Amaranth", sans-serif; */
   background-color :white;
   border-style: groove;
   box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
