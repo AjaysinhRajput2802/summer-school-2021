@@ -91,7 +91,6 @@ nav li {
 
 /* About starts */
 #about {
-  padding-top: 30px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 30px;
@@ -201,6 +200,7 @@ nav li {
 
 .registeration-title {
   color: #24b8ff;
+  width: 300px;
 }
 /* Register end */
 
